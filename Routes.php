@@ -1,7 +1,11 @@
 <?php
 
 Route::set('about-us',function (){
-    echo 'about us';
+    AboutUs::CreateView();
+});
+
+Route::set('main',function (){
+    Main::CreateView();
 });
 
 ?>
