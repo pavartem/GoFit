@@ -11,5 +11,3 @@ Route::set('about-us',function (){
 Route::set('main',function (){
     Main::CreateView('Main');
 });
-
-?>
