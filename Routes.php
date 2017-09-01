@@ -1,13 +1,13 @@
 <?php
 
 Route::set('index.php', function (){
-    Index::CreateView('Index');
+    Index::createView('Index');
 });
 
 Route::set('about-us', function (){
-    AboutUs::CreateView('AboutUs');
+    AboutUs::createView('AboutUs');
 });
 
 Route::set('main', function (){
-    Main::CreateView('Main');
+    Main::createView('Main');
 });
